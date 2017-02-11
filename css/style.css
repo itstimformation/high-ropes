@@ -66,7 +66,7 @@ table.menu {
 
 }
 
-table.works {
+table.apparel {
   margin: auto;
   width: 75%;
   padding-bottom: 1em;
@@ -74,7 +74,7 @@ table.works {
 
 }
 
-blockquote.works {
+blockquote.apparel {
   font-size: 2.3em;
 }
 
@@ -84,21 +84,31 @@ td p {
 
 }
 
-table #works {
+table #apparel {
   font-size: 1.2em;
-  text-align: justify;
+  text-align: center;;
 }
 
-img.works {
-  width: 90%;
-  margin-bottom: .4em;
-  margin-top: 0;
+table.apparel {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+img.apparel {
+  width: 10em;
+  margin-right: 1.6em;
 }
 
 td {
   font-style: 'Heebo';
   font-size: 3.2em;
   line-height: 1.5em;
+}
+
+td.apparel p {
+  font-size: 1em;
+  padding-top: 0em;
 }
 
 article {
@@ -167,10 +177,6 @@ table h2.about {
   line-height: 1.2em;
 }
 
-td {
-  vertical-align: top;
-}
-
 article.about-me {
   padding-bottom: 0em;
   margin-bottom: 0em;
@@ -202,6 +208,48 @@ p {
   line-height: 1.1em;
 }
 
+table #apparel {
+  font-size: 1.2em;
+  text-align: center;;
+}
+
+table.apparel {
+  padding-top: 4em;
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+img.apparel {
+  width: 10em;
+  margin-right: 1.6em;
+}
+
+td.apparel p {
+  font-size: 1em;
+  padding-top: 0em;
+  margin-top: -.6em;
+}
+
+.apparel h1{
+  font-family: 'Amarillo';
+  margin-top: 0em;
+  margin-left: 0em;
+  display: block;
+  text-align: center;
+  font-size: 6em;
+  color: white;
+}
+
+h2.apparel {
+  padding-top: 1em;
+  margin: auto;
+  width: 85%;
+  color: #1F2440;
+  font-size: 1.7em;
+  line-height: 1.2em;
+}
+
 article.intro {
   background-color: #AFA684;
 }
@@ -228,7 +276,7 @@ article.career h2 {
   color: #AFA684;
 }
 
-article.works {
+article.apparel {
   background-color: #AFA684;
 }
 
