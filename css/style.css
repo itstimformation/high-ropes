@@ -1,0 +1,420 @@
+/*------------- CSS RESET -----------------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+body{
+  /*width: 75%;
+  max-width: 700px;*/
+  font-family: 'Oswald', 'Heebo', 'Exo 2', sans-serif;
+  /*font-family: 'Libre Baskerville', Georgia, Times, 'Times New Roman',serif;*/
+  margin: auto;
+  background-color: #1F2440;
+  color: #333;
+  line-height: 1.8;
+}
+
+header {
+  height: 100vh;
+  width: 98vw;
+}
+
+.landing {
+  background-image: url(../images/landing-page4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Amarillo';
+  src:url('../fonts/amarurgt.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'Amarillo';
+  font-size: 9em;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 6em;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #ff292d;
+}
+
+table.menu {
+  text-align:left;
+  margin-top: 6em;
+  margin-right: 9em;
+  margin-left: 3em;
+  /*border: 1px solid #000*/
+
+}
+
+table.works {
+  margin: auto;
+  width: 75%;
+  padding-bottom: 1em;
+
+
+}
+
+blockquote.works {
+  font-size: 2.3em;
+}
+
+td p {
+  font-size: .5em;
+  /*text-align: justify;*/
+
+}
+
+table #works {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+img.works {
+  width: 90%;
+  margin-bottom: .4em;
+  margin-top: 0;
+}
+
+td {
+  font-style: 'Heebo';
+  font-size: 3.2em;
+  line-height: 1.5em;
+}
+
+article {
+
+  width: 100%;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+h2 {
+  font-family: 'Heebo';
+  font-size: 3em;
+  margin-left: 2em;
+  margin-top: .5em;
+  padding-bottom: .2em;
+}
+
+article.first-image img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+article.first-image {
+  padding-top: .2em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+article.second-image img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+article.second-image {
+  padding-top: 0em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+table.about {
+  margin-left: 5em;
+  width: 85%;
+  padding-top: .2em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  border-collapse: collapse;
+}
+
+table.about img {
+  vertical-align: bottom;
+  height: 17%;
+}
+
+td.picture {
+  width: 30%;
+}
+
+table h2.about {
+  font-size: .5em;
+  color: #1F2440;
+  margin-left: 2em;
+  margin-top: 3em;
+  line-height: 1.2em;
+}
+
+td {
+  vertical-align: top;
+}
+
+article.about-me {
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+article.welcome h2 {
+  font-size: 2.3em;
+  font-family: 'Heebo';
+  width: 85%;
+  margin-left: 2.7em;
+  line-height: 1.2em;
+}
+
+h2.team {
+  padding-top: 1em;
+  margin: auto;
+  width: 85%;
+  color: #AFA684;
+  font-size: 1.7em;
+  line-height: 1.2em;
+}
+
+p {
+  font-family: 'Oswald';
+  width: 85%;
+  font-size: 1.5em;
+  margin: 0em;
+  margin-bottom: 0em;
+  line-height: 1.1em;
+}
+
+article.intro {
+  background-color: #AFA684;
+}
+
+article.welcome p {
+  color: #AFA684;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+article.welcome h2 {
+  color: #AFA684;
+}
+
+article.about-me {
+  background-color: #AFA684;
+}
+
+article.team p {
+  color: #AFA684;
+}
+
+article.career h2 {
+  color: #AFA684;
+}
+
+article.works {
+  background-color: #AFA684;
+}
+
+article.awards p {
+  color: #AFA684;
+}
+
+article.awards h2 {
+  color: #AFA684;
+}
+
+article.awards h3 {
+  color: #AFA684;
+}
+
+article.awards h4 {
+  color: #AFA684;
+}
+
+article.bibliography p {
+  color: #AFA684;
+}
+
+article.bibliography h2 {
+  color: #AFA684;
+}
+
+article.contact p {
+  color: #AFA684;
+}
+
+article.contact h2 {
+  color: #AFA684;
+}
+
+article.conclusion {
+  background-color: #AFA684;
+  margin-bottom: 0;
+  padding-bottom: 2em;
+}
+
+article.awards {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+
+article.awards h2 {
+  text-align: center;
+  margin-left: 0;
+}
+
+article.awards h4 {
+  line-height: 1.5em;
+}
+
+article.bibliography {
+  background-image: url(../images/down-arrow.gif);
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+article.bibliography h2 {
+  margin-top: 2em;
+}
+
+blockquote{
+  text-align: center;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.75em;
+  line-height: 1.4em;
+}
+
+blockquote cite{
+  font-size: .75em;
+}
+
+blockquote p{
+  color: #1F2440;
+  hanging-punctuation: first;
+  text-indent: -0.5em;
+}
+
+.slant {
+
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.contact {
+  padding-top: 40em;
+  padding-bottom: .7em;
+  text-align: center;
+}
+
+.contact p {
+  font-family: 'Heebo';
+  line-height: 0;
+  font-size: 1.3em;
+}
+
+p.email {
+  margin-bottom: .3em;
+}
+
+p.uub {
+  margin-top: .1em;
+}
+
+footer img {
+  padding-top: .4em;
+  padding-left: 1em;
+}
+
+#tumblr:hover {
+  <img src: url(../images/tumblr-black.png)>;
+}
+
+#github:hover {
+  <img src: url(../images/github-black.png)>;
+}
+
+#instagram:hover {
+  <img src: url(../images/instagram-black.png)>;
+}
+
+#twitter:hover {
+  /*<img src: url(../images/twitter-black.png)>;*/
+}
+
+/*-------------- DESKTOP ---------------------*/
+
+@media (min-width: 750px) {
+
+.title {
+  display: none;
+}
+
+}
+
+/*-------------- MOBILE ----------------------*/
+
+@media (max-width: 35em) {
+
+article.bibliography p {
+  width: 75%;
+  margin: auto;
+  padding-top: .7em;
+}
+
+article.bibliography span {
+  font-size: .6em;
+  line-height: .1em;
+}
+
+article.bibliography h2 {
+  margin-left: 1em;
+}
+
+footer {
+  padding-top: 37em;
+}
+article.contact span {
+  font-size: .7em;
+}
+
+.landing {
+  background-image: none;
+}
+
+.title {
+  width:25em;
+  margin-left: -2em;
+}
+
+table.menu {
+  margin: auto;
+}
+
+header {
+  padding-bottom: 6em;
+  width: auto;
+}
+
+}
