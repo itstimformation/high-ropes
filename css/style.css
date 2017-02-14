@@ -145,6 +145,13 @@ article.second-image img {
   width: 100%;
 }
 
+article.third-image {
+  width: 100%;
+  padding-top: .2em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
 article.second-image {
   padding-top: 0em;
   padding-bottom: 0em;
@@ -215,6 +222,7 @@ table #apparel {
 
 table.apparel {
   padding-top: 4em;
+  padding-left: 5em;
   margin: auto;
   width: 75%;
   text-align: center;
@@ -244,6 +252,16 @@ td.apparel p {
 h2.apparel {
   padding-top: 1em;
   margin: auto;
+  width: 85%;
+  color: #1F2440;
+  font-size: 1.7em;
+  line-height: 1.2em;
+}
+
+h2.apparel-price {
+  padding-top: 1em;
+  margin: auto;
+  text-align: center;
   width: 85%;
   color: #1F2440;
   font-size: 1.7em;
@@ -280,19 +298,19 @@ article.apparel {
   background-color: #AFA684;
 }
 
-article.awards p {
+article.pack p {
   color: #AFA684;
 }
 
-article.awards h2 {
+article.pack h2 {
   color: #AFA684;
 }
 
-article.awards h3 {
+article.pack h3 {
   color: #AFA684;
 }
 
-article.awards h4 {
+article.pack h4 {
   color: #AFA684;
 }
 
@@ -318,32 +336,90 @@ article.conclusion {
   padding-bottom: 2em;
 }
 
-article.awards {
+.pack h1 {
+  font-family: 'Amarillo';
+  margin-top: 0em;
+  padding-top: 0em;
+  margin-left: 0em;
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  color: white;
+}
+
+article.pack {
   text-align: center;
   font-size: 1.5em;
   line-height: 1.7em;
+  margin-top: 0em;
 }
 
-article.awards h2 {
+h2.pack {
+  padding-top: 1em;
+  margin: auto;
+  width: 85%;
+  color: #AFA684;
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
+table.pack {
+  margin: auto;
+  width: 75%;
   text-align: center;
-  margin-left: 0;
 }
 
-article.awards h4 {
+#titles {
+  font-family: "Amarillo";
+  font-size: 2em;
+  text-align: left;
+}
+
+#list {
+  padding-top: 1em;
+  padding-right: 3em;
+  font-size: .25em;
+  text-align: left;
+  vertical-align: top;
+}
+
+.pack td {
+  width: 20%;
+  vertical-align: top;
+}
+
+li {
+  line-height: 1.1em;
+  margin-top: .8em;
+}
+
+article.pack h4 {
   line-height: 1.5em;
 }
 
-article.bibliography {
-  background-image: url(../images/down-arrow.gif);
-  background-repeat: no-repeat;
-  background-position: top;
-  position: absolute;
-  margin-top: 0;
-  padding-top: 1em;
+.arrow {
+  width: 100%;
+  padding-top: 0em;
+  margin-top: 0em;
+  top: 0em;
+  position: static;
 }
 
-article.bibliography h2 {
-  margin-top: 2em;
+article.conclusion {
+  padding-top: 0em;
+}
+
+article.third-image {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-top: 0em;
+  margin-top: 0em;
+}
+
+.third-image img {
+  width: 100%;
+  margin-top: 0em;
 }
 
 blockquote{
