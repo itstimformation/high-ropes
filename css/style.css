@@ -24,7 +24,7 @@ header {
 }
 
 .landing {
-  background-image: url(../images/landing-page4.jpg);
+  background-image: url(../images/landing-page6.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,6 +35,70 @@ header {
 @font-face {
   font-family: 'Amarillo';
   src:url('../fonts/amarurgt.ttf') format('truetype');
+}
+
+#outer-ring {
+  max-width: 23%;
+  position: absolute;
+  margin-left: 41.5em;
+  margin-top: 14.2em;
+  z-index: 1;
+}
+
+#middle-ring {
+  max-width: 19%;
+  position: absolute;
+  margin-left: 43.7em;
+  margin-top: 16.4em;
+  z-index: 2;
+}
+
+#inner-ring {
+  max-width: 15%;
+  position: absolute;
+  margin-left: 45.9em;
+  margin-top: 18.7em;
+  z-index: 3;
+}
+
+#letter {
+  max-width: 6%;
+  position: absolute;
+  margin-left: 51em;
+  margin-top: 21.8em;
+  z-index: 4;
+}
+
+#outer-ring-colour {
+  max-width: 23%;
+  position: absolute;
+  margin-left: 41.5em;
+  margin-top: 14.2em;
+  z-index: 1;
+}
+
+#middle-ring-colour {
+  max-width: 19%;
+  position: absolute;
+  margin-left: 43.7em;
+  margin-top: 16.4em;
+  z-index: 2;
+}
+
+#inner-ring-colour {
+  max-width: 15%;
+  position: absolute;
+  margin-left: 45.9em;
+  margin-top: 18.7em;
+  z-index: 3;
+}
+
+#letter-colour {
+  max-width: 6%;
+  position: absolute;
+  margin-left: 51em;
+  margin-top: 21.8em;
+  z-index: 4;
 }
 
 h1 {
