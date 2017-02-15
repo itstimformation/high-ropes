@@ -24,7 +24,7 @@ header {
 }
 
 .landing {
-  background-image: url(../images/landing-page6.jpg);
+  background-image: url(../images/landing-page4.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,6 +36,8 @@ header {
   font-family: 'Amarillo';
   src:url('../fonts/amarurgt.ttf') format('truetype');
 }
+
+/*
 
 #outer-ring {
   max-width: 23%;
@@ -100,6 +102,8 @@ header {
   margin-top: 21.8em;
   z-index: 4;
 }
+
+*/
 
 h1 {
   font-family: 'Amarillo';
