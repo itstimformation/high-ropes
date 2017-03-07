@@ -32,6 +32,11 @@ header {
   margin: 0;
 }
 
+img.title {
+  width: 100%;
+  height: auto;
+}
+
 @font-face {
   font-family: 'Amarillo';
   src:url('../fonts/amarurgt.ttf') format('truetype');
@@ -646,6 +651,11 @@ p.bottom {
 /*-------------- MOBILE ----------------------*/
 
 @media (max-width: 35em) {
+
+img.title {
+  width: 100%;
+  height: auto;
+}
 
 article.bibliography p {
   width: 75%;
