@@ -690,8 +690,8 @@ article.contact span {
 }
 
 .title {
-  width:25em;
-  margin-left: -2em;
+  padding-bottom: 0em;
+  margin-bottom: 0em;
 }
 
 table.menu {
