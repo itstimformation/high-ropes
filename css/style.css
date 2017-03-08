@@ -650,7 +650,7 @@ p.bottom {
 
 /*-------------- MOBILE ----------------------*/
 
-@media (max-width: 67.5em) {
+@media (max-width: 68em) {
 
   .landing {
     background-image: url(../images/landing-page4.jpg);
