@@ -704,8 +704,8 @@ header {
 }
 
 h1.intro {
-  font-size: 4.7em;
-  padding-top: .5em;
+  font-size: 6em;
+  padding-top: 0em;
 }
 
 article.welcome h2 {
