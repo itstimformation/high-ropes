@@ -650,7 +650,7 @@ p.bottom {
 
 /*-------------- MOBILE ----------------------*/
 
-@media (max-width: 40em) {
+@media (max-width: 68em) {
 
   .landing {
     display: none;
@@ -713,8 +713,8 @@ h1.intro {
   font-size: 5em;
   padding-top: 0em;
   margin-top: 0em;
-  width: 80vw;
-  margin: auto;
+  width: 90%;
+  text-align: center;
 }
 
 article.welcome h2 {
