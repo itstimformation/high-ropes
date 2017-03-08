@@ -694,6 +694,12 @@ article.contact span {
   margin-bottom: 0em;
 }
 
+header {
+  height: auto;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+
 table.menu {
   margin: auto;
 }
@@ -705,7 +711,6 @@ header {
 
 h1.intro {
   font-size: 4.7em;
-  padding-top: .5em;
 }
 
 article.welcome h2 {
