@@ -652,11 +652,6 @@ p.bottom {
 
 @media (max-width: 35em) {
 
-img.title {
-  width: 100%;
-  height: auto;
-}
-
 article.bibliography p {
   width: 75%;
   margin: auto;
@@ -679,15 +674,7 @@ article.contact span {
   font-size: .7em;
 }
 
-.landing {
-  background-image: none;
-  margin-bottom: 0em;
-}
 
-.landing {
-  margin-bottom: 0em;
-  padding-bottom: 0em;
-}
 
 table.menu {
   margin: auto;
