@@ -882,3 +882,16 @@ footer {
 }
 
 }
+
+@media (min-width: 52em) and (max-width: 68em) {
+
+article.intro img {
+  display: block;
+  width: 100%;
+}
+
+article.intro h1 {
+  font-size: 6em;
+}
+
+}
