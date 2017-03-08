@@ -650,7 +650,7 @@ p.bottom {
 
 /*-------------- MOBILE ----------------------*/
 
-@media (max-width: 67.5em) {
+@media (max-width: 35em) {
 
 img.title {
   width: 100%;
@@ -689,28 +689,12 @@ article.contact span {
   padding-bottom: 0em;
 }
 
-.title {
-  padding-bottom: 0em;
-  margin-bottom: 0em;
-}
-
-header {
-  height: auto;
-  margin-bottom: 0em;
-  padding-bottom: 0em;
-}
-
-article.intro {
-  padding-top: 0em;
-  margin-top: -.5em;
-}
-
 table.menu {
   margin: auto;
 }
 
 header {
-  padding-bottom: 0em;
+  padding-bottom: 6em;
   width: auto;
 }
 
