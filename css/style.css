@@ -650,7 +650,7 @@ p.bottom {
 
 /*-------------- MOBILE ----------------------*/
 
-@media (max-width: 68em) {
+@media (max-width: 40em) {
 
   .landing {
     display: none;
