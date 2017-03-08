@@ -664,6 +664,7 @@ p.bottom {
 article.intro {
   padding-top: 0em;
   padding-bottom: 0em;
+  width: 100%;
 }
 
 header {
@@ -710,11 +711,11 @@ header {
 }
 
 h1.intro {
-  font-size: 5em;
+  font-size: 4em;
   padding-top: 0em;
   margin-top: 0em;
   width: 90%;
-  text-align: center;
+  padding-left: .2em;
 }
 
 article.welcome h2 {
