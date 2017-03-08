@@ -883,6 +883,8 @@ footer {
 
 }
 
+/*------------- Wide Mobile -----------------*/
+
 @media (min-width: 52em) and (max-width: 68em) {
 
 article.intro img {
@@ -892,6 +894,31 @@ article.intro img {
 
 article.intro h1 {
   font-size: 6em;
+  margin: auto;
+}
+
+article.pack {
+  padding-bottom: -.1em;
+  margin-bottom: -.1em;
+}
+
+#img_cont {
+  display: table;
+  width: 60%;
+  margin-top: -.6em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 75%;
+  max-width: 90px;
 }
 
 }
