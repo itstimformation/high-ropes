@@ -713,6 +713,8 @@ h1.intro {
   font-size: 5em;
   padding-top: 0em;
   margin-top: 0em;
+  width: 90%;
+  margin: auto;
 }
 
 article.welcome h2 {
