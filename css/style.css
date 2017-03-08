@@ -650,10 +650,19 @@ p.bottom {
 
 /*-------------- MOBILE ----------------------*/
 
-@media (max-width: 35em) {
+@media (max-width: 67.5em) {
+
+  .landing {
+    background-image: url(../images/landing-page4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    margin: 0;
+  }
 
 header {
-  height: 14em;
+  height: 36em;
 }
 
 article.bibliography p {
@@ -680,7 +689,7 @@ article.contact span {
 }
 
 .landing {
-  margin-bottom: 0em;
+  margin-bottom: -.2em;
   padding-bottom: 0em;
   vertical-align: top;
 }
