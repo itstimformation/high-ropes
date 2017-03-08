@@ -902,6 +902,10 @@ article.pack {
   margin-bottom: -.1em;
 }
 
+footer {
+  margin-top: 5em;
+}
+
 #img_cont {
   display: table;
   width: 60%;
