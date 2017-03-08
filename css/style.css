@@ -765,7 +765,7 @@ table.apparel {
   margin-left: 0em;
   margin-right: 0em;
   margin-top: 1em;
-  width: 100%;
+  width: 100vw;
 }
 
 table.apparel tr {
