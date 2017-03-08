@@ -675,6 +675,10 @@ article.contact span {
 }
 
 
+.landing {
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
 
 table.menu {
   margin: auto;
