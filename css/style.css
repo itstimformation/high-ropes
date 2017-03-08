@@ -700,17 +700,23 @@ header {
   padding-bottom: 0em;
 }
 
+article.intro {
+  padding-top: 0em;
+  margin-top: -.5em;
+}
+
 table.menu {
   margin: auto;
 }
 
 header {
-  padding-bottom: 6em;
+  padding-bottom: 0em;
   width: auto;
 }
 
 h1.intro {
   font-size: 4.7em;
+  padding-top: .5em;
 }
 
 article.welcome h2 {
