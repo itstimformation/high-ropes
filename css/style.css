@@ -159,7 +159,7 @@ td p {
 
 table #apparel {
   font-size: 1.2em;
-  text-align: center;;
+  text-align: center;
 }
 
 table.apparel {
@@ -171,6 +171,7 @@ table.apparel {
 img.apparel {
   width: 10em;
   margin-right: 1.6em;
+  padding-bottom: .5em;
 }
 
 td {
