@@ -18,6 +18,8 @@ body{
   line-height: 1.8;
 }
 
+::-webkit-scrollbar {display:none;}
+
 header {
   height: 100vh;
   width: 98vw;
@@ -588,7 +590,7 @@ p.uub {
 
 #img_cont {
   display: table;
-  width: 25%;
+  width: 15%;
   margin-top: -.6em;
   margin-left: auto;
   margin-right: auto;
@@ -597,12 +599,12 @@ p.uub {
 #img_cont a {
   display: table-cell;
   text-align: center;
-  width: 16%;
+  width: 20%;
 }
 
 #img_cont img {
-  width: 75%;
-  max-width: 50px;
+  width: 100%;
+  max-width: 60px;
 
 }
 
@@ -619,20 +621,8 @@ p.bottom {
   margin: auto;
 }
 
-#facebook:hover {
-  <img src: url(../images/facebook-gold.png)>;
-}
-
-#github:hover {
-  <img src: url(../images/github-black.png)>;
-}
-
-#instagram:hover {
-  <img src: url(../images/instagram-black.png)>;
-}
-
-#twitter:hover {
-  /*<img src: url(../images/twitter-black.png)>;*/
+img.social {
+  width: 50%;
 }
 
 /*-------------- DESKTOP ---------------------*/
